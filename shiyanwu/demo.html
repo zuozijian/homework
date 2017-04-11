@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+	<title>插入表格</title>
+</head>
+<body>
+<table border="1" cellspacing="0" align="center">
+	<tr>
+		<td width="79" bgcolor="#FFFFFF">用户名：</td>
+		<td width="309" bgcolor="#FFFFFF"><input type="text" /></td>
+	</tr>
+	<tr>
+		<td width="79" bgcolor="#FFFFFF">密码：</td>
+		<td width="309" bgcolor="#FFFFFF"><input type="text" /></td>
+	</tr>
+    <tr>
+    	<td width="99" bgcolor="#FFFFFF">确认密码：</td>
+		<td width="309" bgcolor="#FFFFFF"><input type="text" /></td>
+    </tr>
+   <tr>
+   	    <td width="79" bgcolor="#FFFFFF">性别：</td>
+   	    <td>
+   	    <form>
+   	    	男<input type="radio" checked="checked" name="Sex" value="male" />
+   	    	女<input type="radio" name="Sex" value="female" />
+   	    </form></td>
+   </tr>
+   <tr>
+   	  <td width="99" bgcolor="#FFFFFF">生日：</td>
+   	  <td>
+   	  	<form>
+   	  		<select>
+   	  			<option>公历</option>
+   	  		</select>
+   	  		<select>
+   	  			<option>年&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</option>
+   	  		</select>
+   	  		<select>
+   	  			<option>月&nbsp;&nbsp;&nbsp;&nbsp;</option>
+   	  		</select>
+   	  		<select>
+   	  			<option>日&nbsp;&nbsp;&nbsp;&nbsp;</option>
+   	  		</select>
+   	  	</form>
+   	  </td>
+   </tr>
+   <tr>
+   	  <td width="99" bgcolor="#FFFFFF">所在地：</td>
+   	  <td>
+   	  	 <form>
+   	  	 	<select>
+   	  			<option>中国&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</option>
+   	  		</select>
+   	  		<select>
+   	  			<option>河北</option>
+   	  		</select>
+   	  		<select>
+   	  			<option>石家庄</option>
+   	  		</select>
+   	  	 </form>
+   	  </td>
+   </tr>
+   <tr>
+   	  <td width="99" bgcolor="#FFFFFF">验证码：</td>
+        <td width="309" bgcolor="#FFFFFF"><input type="text" />
+        <img src="images/yanzhengma.jpg" width="79" height="30"></td>
+   </tr>
+   <tr>
+      <td width="99" bgcolor="#FFFFFF">证件类型：</td>
+      <td>
+         <form>
+            <select>
+               <option>身份证</option>
+            </select>
+      </td>
+   </tr>
+   <tr>
+      <td width="99" bgcolor="#FFFFFF">证件号：</td>
+      <td width="309" bgcolor="#FFFFFF"><input type="text" /></td>
+   </tr>
+   <tr>
+      <td width="99" bgcolor="#FFFFFF">爱好：</td>
+      <td>
+         <form>
+            <input type="checkbox" name="music" value="音乐">音乐
+            <input type="checkbox" name="read" value="读书">读书
+            <input type="checkbox" name="dance" value="跳舞">跳舞
+            <input type="checkbox" name="chess" value="下棋">下棋
+            <input type="checkbox" name="other" value="其他">其他
+         </form>
+      </td>
+   </tr>
+   <tr>
+      <td width="99" bgcolor="#FFFFFF">说明：</td>
+     <td>
+        <form>
+           <textarea rows="3"></textarea>
+        </form>
+     </td>
+     </tr>
+     <tr>
+      <td width="99" bgcolor="#FFFFFF">上传头像：</td>
+      <td>
+         <form>
+            <input type="button" onclick="createordeer()" value="选择文件">
+         </form>
+      </td>
+      <tr>
+         <td align="center" colspan="2">
+            <form>
+            <input type="button" onclick="createordeer()" value="提交">
+            <input type="button" onclick="createordeer()" value="重置">
+            <input type="button" onclick="createordeer()" value="按钮">
+         </form>
+         </td>
+      </tr>
+</table>
+
+</body>
+</html>
