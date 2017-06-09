@@ -1,0 +1,26 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	text-align: center;
+}
+.imgage{
+	float: left;
+	border: 1px solid #bebebe;
+}
+
+ img
+{
+	width: 300px;
+	opacity: 0.5;
+}
+	
+.imgage a:hover img
+{
+	opacity: 1;
+}
+.imgage img{
+	display: inline;
+	margin: 3px;
+	width: 200px;
+	height: 160px;
+}
